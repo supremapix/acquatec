@@ -1,0 +1,20 @@
+{
+  "short_name": "Acquatec",
+  "name": "Acquatec Calhas e Telhados",
+  "icons": [
+    {
+      "src": "https://loremflickr.com/192/192/logo,roof",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://loremflickr.com/512/512/logo,roof",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0066CC",
+  "background_color": "#ffffff"
+}
