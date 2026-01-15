@@ -6,10 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom', 'react-helmet-async'],
-          icons: ['lucide-react']
-        }
+        // Removing manualChunks to avoid issues with Import Maps and duplicate React instances
       }
     }
   }
